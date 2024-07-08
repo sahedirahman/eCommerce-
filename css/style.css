@@ -1,0 +1,228 @@
+/* All Common CSS Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+/* All Common CSS End */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  transition: .4s;
+}
+
+.nav-link:hover {
+  color: #4756DF;
+
+}
+
+.contact_btn {
+  padding: 15px 42px;
+  background: #6A4DF4;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+/* Banner Part Start  */
+#banner_part {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_overly {
+  padding-top: 330px;
+  padding-bottom: 165px;
+  background: rgba(0, 0, 0, 0.62);
+}
+
+.banner_text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.banner_text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 214px;
+}
+
+.banner_text a {
+  padding: 15px 42px;
+  background: #6A4DF4;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Banner Part End  */
+
+/* Counter Part Start  */
+#counter_part {
+  padding-top: 170px;
+  padding-bottom: 80px;
+}
+
+.extra_bg {
+  padding: 95px 50px;
+  background: #E0FFF9;
+}
+
+.counter_left_text p {
+  padding-bottom: 30px;
+  color: #6A4DF4;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.counter_left_text h3 {
+
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.counter_item h3 {
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+
+}
+
+.counter_item p {
+  padding-top: 20px;
+  color: #737373;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+/* Counter Part End  */
+
+/* Service Part Start  */
+#service_part {
+  padding-top: 80px;
+  padding-bottom: 155px;
+}
+
+.service_item {
+  padding: 55px;
+  transition: .4s;
+}
+
+.service_text h3 {
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.service_text p {
+  color: #737373;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+
+}
+
+.service_item:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Service Part End  */
+
+/* ukti_part Part Start  */
+#ukti_part{
+  padding: 150px 0;
+}
+.author{
+  display: flex;
+}
+.contact_btnnnn{
+  width: 100%;
+  background: #6A4DF4;
+}
+#contact_part{
+  padding: 150px 0;
+}
+.contact_bg{
+  padding: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.ddd::placeholder {
+  color: red;
+  opacity: 1; 
+}
+/* ukti_part Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
+/* Counter Part Start  */
+/* Counter Part End  */
